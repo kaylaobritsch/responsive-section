@@ -34,16 +34,81 @@ section {
 .wrapper {
   margin: 0 auto;
   max-width: 45em;
+  overflow: hidden;
 }
 
 .section-letter {
-
+  width: 40%;
+  float: left;
+  margin: 1rem;
 }
 
 .section-icon {
-
+  width: 40%;
+  float: left;
+  margin: 1rem;
 }
 
 .section-body {
+  margin: 0 1rem 0 1rem;
+}
+
+section h2 {
+  margin: 0;
+  font-weight: 700;
+}
+
+section p {
+  margin: 0 0 1rem 0;
+  font-weight: 400;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .section-letter {
+    width: 40%;
+  }
+
+  .section-icon {
+    width: 40%;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .section-letter {
+    width: 20%;
+    margin: 1rem;
+  }
+
+  .section-icon {
+    width: 20%;
+    float: right;
+    margin: 1rem;
+  }
+
+  section h2 {
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  .section-letter {
+    width: 25%;
+    margin: 1rem;
+  }
+
+  .section-icon {
+    width: 25%;
+    float: right;
+    margin: 1rem;
+  }
 
 }
